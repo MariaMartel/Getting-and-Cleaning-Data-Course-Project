@@ -12,9 +12,9 @@ And include several files with the data, and information and description about t
 
 ## The variables.
 There are 180 observations = 6 activities (walking, walking_upstairs, walking_downstairs, sitting, standing, laying) x 30 voluntaires.
-There are 68 variables corresponding to the mean and the standard deviation of the different physical features measured in the experiment (for example: “tbodyacc.mean.x” is the mean of body acceleration signal obtained by subtracting the gravity from the total acceleration, on the x-axis, or “tbodygyrojerk.std.z” is the standard deviation of the angular velocity, on the z-axis). The full description can be read in the file "features.info.txt", which is included in the downloaded dataset.
+And there are 68 variables corresponding to the mean and the standard deviation of the different physical features measured in the experiment (for example: “tbodyacc.mean.x” is the mean of body acceleration signal obtained by subtracting the gravity from the total acceleration, on the x-axis, or “tbodygyrojerk.std.z” is the standard deviation of the angular velocity, on the z-axis). The full description can be read in the file "features.info.txt", which is included in the downloaded dataset.
 
-## Work and tranformations.
+## Work and transformations.
 First of all, the working directory was setted and the data were downloaded from the link mentioned above.
 
 Then, the script called “run_analysis.R” does the following:
