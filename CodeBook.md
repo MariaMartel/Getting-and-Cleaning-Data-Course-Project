@@ -2,7 +2,7 @@
 
 Here are described the variables, the data, and any transformations or work needed to clean up the Course Project Data.
 
-These data represent data collected from the accelerometers from the Samsung Galaxy S Smartphone, as part as the experiment called ìHuman Activity Recognition Using Smartphones Data Setî, where 30 volunteers performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. The obtained dataset was randomly partitioned into two sets, the training data and the test data, and were recorded various features.
+These data represent data collected from the accelerometers from the Samsung Galaxy S Smartphone, as part as the experiment called ‚ÄúHuman Activity Recognition Using Smartphones Data Set‚Äù, where 30 volunteers performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. The obtained dataset was randomly partitioned into two sets, the training data and the test data, and were recorded various features.
 
 The full description can be readed in: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
@@ -12,14 +12,14 @@ And include several files with the data, and information and description about t
 
 ## The variables.
 There are 180 observations = 6 activities (walking, walking_upstairs, walking_downstairs, sitting, standing, laying) x 30 voluntaires.
-There are 68 variables corresponding to the mean and the standard deviation of the different physical features measured in the experiment (for example: ìtbodyacc.mean.xî is the mean of body acceleration signal obtained by subtracting the gravity from the total acceleration, on the x-axis, or ìtbodygyrojerk.std.zî is the standard deviation of the angular velocity, on the z-axis). The full description can be read in the file features.info.txt, which is included in the downloaded dataset.
+There are 68 variables corresponding to the mean and the standard deviation of the different physical features measured in the experiment (for example: ‚Äútbodyacc.mean.x‚Äù is the mean of body acceleration signal obtained by subtracting the gravity from the total acceleration, on the x-axis, or ‚Äútbodygyrojerk.std.z‚Äù is the standard deviation of the angular velocity, on the z-axis). The full description can be read in the file features.info.txt, which is included in the downloaded dataset.
 
 ## Work and tranformations.
 First of all, the working directory was setted and the data were downloaded from the link mentioned above.
 
-Then, the script called ìrun_analysis.Rî does the following:
+Then, the script called ‚Äúrun_analysis.R‚Äù does the following:
 
-*Merges the training and the test sets to create one data set (training and test sets, training and test subjects and training and test labels).
+* Merges the training and the test sets to create one data set (training and test sets, training and test subjects and training and test labels).
 
 *Extracts only the measurements on the mean and standard deviation for each measurement (searching for matches to arguments mean and std, removing "()" and "-", translating upper to lower case).
 
