@@ -4,10 +4,10 @@ Here are described the variables, the data, and any transformations or work need
 
 These data represent data collected from the accelerometers from the Samsung Galaxy S Smartphone, as part as the experiment called “Human Activity Recognition Using Smartphones Data Set”, where 30 volunteers performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. The obtained dataset was randomly partitioned into two sets, the training data and the test data, and were recorded various features.
 
-The full description can be readed in: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
+The full description can be readed in: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones .
 
 ## The data.
-The data were downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
+The data were downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip .
 And include several files with the data, and information and description about them. Here it has been selected the files corresponding to set, subject and label for both training and test data (which were merged further).
 
 ## The variables.
